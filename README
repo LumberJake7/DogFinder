@@ -1,0 +1,70 @@
+# My React Apps: Dog Finder & Color Factory
+
+This repository contains two separate React applications: **Dog Finder** and **Color Factory**. Each app is designed to demonstrate different React functionalities, including routing, state management, and component-based design.
+
+## Table of Contents
+
+- [Dog Finder](#dog-finder)
+  - [Overview](#overview)
+  - [Setup & Running the App](#setup--running-the-app)
+  - [Key Features](#key-features)
+- [Color Factory](#color-factory)
+  - [Overview](#overview-1)
+  - [Setup & Running the App](#setup--running-the-app-1)
+  - [Key Features](#key-features-1)
+
+## Dog Finder
+
+### Overview
+
+The Dog Finder app allows users to view a list of dogs and see detailed information about each dog. The app uses React Router for navigation between different pages.
+
+### Setup & Running the App
+
+1. **Navigate to the Dog Finder directory**:
+   ```bash
+   cd DogFinder
+   Install dependencies:
+   ```
+
+bash
+Copy code
+npm install
+Start the application:
+
+bash
+Copy code
+npm start
+This will start both the frontend (React) and a backend server (using json-server), allowing you to interact with the app at http://localhost:3000/.
+
+Key Features
+View All Dogs: The homepage displays a list of all available dogs.
+View Dog Details: Click on a dog's name to view detailed information, including the dog's name, age, and fun facts.
+Navigation: Use React Router for seamless navigation between the list and detail views.
+Color Factory
+Overview
+The Color Factory app allows users to add new colors to a list and view each color in its full display. The app demonstrates how to use forms, React state, and routing to create a dynamic and interactive application.
+
+Setup & Running the App
+Navigate to the Color Factory directory:
+
+bash
+Copy code
+cd ColorFactory
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the application:
+
+bash
+Copy code
+npm run dev
+The app will start on http://localhost:5173/ using Vite for a fast development experience.
+
+Key Features
+View All Colors: See a list of all the colors that have been added.
+Add a New Color: Use the form to add a new color to the list.
+View a Specific Color: Click on a color to see it displayed on its own page.
+Navigation: Navigate easily between the list of colors and the add color form using React Router.
